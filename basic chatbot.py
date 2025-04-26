@@ -23,8 +23,8 @@ patterns = [
 chatbot = Chat(patterns, reflections)
 
 # start conversation
-print("Hello! I'm ChatGPT. How can I help you today?")
+print("Hello! I'm Perry. How can I help you today?")
 while True:
     user_input = input("You: ")
     response = chatbot.respond(user_input)
-    print("ChatGPT:", response)
+    print("Perry:", response)
